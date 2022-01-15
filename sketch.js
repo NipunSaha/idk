@@ -16,7 +16,7 @@ function setup() {
   world = engine.world;
   hero = new Hero(600,600,400,200);
   hangingrope = new Fly(hero.body,{x:300,y:200})
-  ground = new Ground(600,600,1700,20)
+  ground = new Ground(600,600,1200,20)
   block1 = new Block(800,500);
   block2 = new Block(800,490)
   block3 = new Block(800,480)
